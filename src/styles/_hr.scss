@@ -1,0 +1,22 @@
+/**
+* hr styling
+*/
+
+/* osrui hr */
+.osrui-content hr
+{
+    display:block;
+    border:0px;
+    height:10px;
+    background: url("img/hr/hr.png") repeat-x top left;
+}
+
+/* osrui main-bar hr */
+.osrui-content hr.golden 
+{
+    display:block;
+    border:0px;
+    height:10px;
+    background: url("img/hr/hr-golden.png") no-repeat top left;
+    background-size: 100% 100%;
+}

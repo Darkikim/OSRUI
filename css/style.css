@@ -1,0 +1,96 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #5F5F5F;
+}
+
+.osrui-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+main
+{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66%;
+    min-width: 900px;
+}
+
+main .osrui-container
+{
+    width: 100%;
+}
+.container-div
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.button, .progress, .checkbox
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress
+{
+    justify-content: center;   
+}
+main .osrui-container .container
+{
+    margin: 10px 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+}
+
+header, footer
+{
+    width: 100%;
+}
+footer
+{
+    margin-top: 30px;   
+}
+.osrui-content header h1
+{
+    font-size: 250%;
+}
+
+.osrui-progress-fill
+{
+    width: 70%;
+}
+.osrui-progress-fill.red
+{
+    width: 60%;
+}
+.osrui-progress-fill.green
+{
+    width: 80%;
+}
+.osrui-progress-fill.blue
+{
+    width: 90%;
+}
+.osrui-progress-scroll 
+.osrui-progress-fill
+{
+    width: 80%;
+}

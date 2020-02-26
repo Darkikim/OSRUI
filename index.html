@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/list.js"></script>
+        <script src="./js/dropdown.js"></script>
+        <title>Fichier de Test</title>
+    </head>
+
+    <body>
+        <div class="osrui-content osrui-cursor-default">
+            <header class="osrui-container no-frame">
+                <h1 class="title">Old School Revival UI CSS</h1>
+            </header>
+            <main class="osrui-container">
+                <!-- Presentation -->
+                <article class="osrui-container no-frame">
+                    <h2>Few Words</h2>
+                    <div class="container-div">
+                        <p>
+                            OSRUI is a CSS framework with Javascript when needed.
+                            <br>This framework require no dependencies and no coding.
+                            <br>Exemples are given with the download.
+                        </p>
+                    </div>
+                </article>
+                <!-- Container Article -->
+                <article class="osrui-container framed-grey ">
+                    <h2>osrui-container</h2>
+                    <div class="custom">
+                        <section class="container-div spaceE">
+                            <div class="osrui-container container">
+                                <p>Normal</p>
+                            </div>
+                            <div class="osrui-container framed container">
+                                <p>framed</p>
+                            </div>
+                            <div class="osrui-container framed-scroll container">
+                                <p>framed-scroll</p>
+                            </div>
+                        </section>
+                        <section class="container-div">
+                            <div class="osrui-container framed-brown container">
+                                <p>framed-brown</p>
+                            </div>
+                            <div class="osrui-container framed-grey container">
+                                <p>framed-grey</p>
+                            </div>
+                            <div class="osrui-container no-frame container">
+                                <p>no-frame</p>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+                <!-- Paragraph Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>Paragraph</h2>
+                    <section class="osrui-container framed-grey">
+                        <h1>Header 1</h1>
+                        <h2>Header 2</h2>
+                        <h3>Header 3</h3>
+                        <h4>Header 4</h4>
+                        <h5>Header 5</h5>
+                        <h6>Header 6</h6>
+                        <p>This is a regular paragraph</p>
+                        <label>This is a regular label</label><br>
+                        <span>This is a regular span</span><br>
+                        <a>This is a regular link</a><br>
+                        <label for="input-text">Input Text :</label>
+                        <input id="input-text" type="text" placeholder="This is an input text">
+                        <label for="textarea">Textarea :</label>
+                        <textarea name="" id="textarea" cols="30" rows="10">Hi, this is a textarea</textarea>
+                    </section>
+                </article>
+                <!-- Button Article -->
+                <article class="osrui-container framed-grey ">
+                    <h2>osrui-button</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown  button">
+                            <button class="osrui-button">
+                                <p>Normal</p>
+                            </button>
+                            <button class="osrui-button hover">
+                                <p>Hover</p>
+                            </button>
+                            <button class="osrui-button down">
+                                <p>Clicked</p>
+                            </button>
+                        </section>
+                        <section class="osrui-container framed-brown button">
+                            <button class="osrui-button golden">
+                                <p>Golden</p>
+                            </button>
+                            <button class="osrui-button golden hover">
+                                <p>Hover</p>
+                            </button>
+                            <button class="osrui-button golden down">
+                                <p>Clicked</p>
+                            </button>
+                        </section>
+                        <section class="osrui-container framed-brown button">
+                            <button class="osrui-button rounded">
+                                <p>Rounded</p>
+                            </button>
+                            <button class="osrui-button rounded hover">
+                                <p>Hover</p>
+                            </button>
+                            <button class="osrui-button rounded down">
+                                <p>Clicked</p>
+                            </button>
+                        </section>
+                    </div>
+                </article>
+                <!-- Cursor Article-->
+                <article class="osrui-container framed-grey">
+                    <h2>Cursor</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container no-frame">
+                            <button class="osrui-button golden osrui-cursor-default">
+                                <p>default</p>
+                            </button>
+                            <button class="osrui-button golden osrui-cursor-point">
+                                <p>point</p>
+                            </button>
+                            <button class="osrui-button golden osrui-cursor-select">
+                                <p>select</p>
+                            </button>
+                        </section>
+                    </div>
+                </article>
+                <!-- Checkbox Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>osrui-checkbox & osrui-label</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown checkbox">
+                            <input id="uncheck" type="checkbox" class="osrui-checkbox">
+                            <label for="uncheck" class="osrui-label">Normal</label>
+                            <input id="check" type="checkbox" class="osrui-checkbox" checked>
+                            <label for="check" class="osrui-label">Normal Checked</label>
+                        </section>
+                        <section class="osrui-container framed-brown checkbox">
+                            <input id="uncheck-squared" type="checkbox" class="osrui-checkbox squared">
+                            <label for="uncheck-squared" class="osrui-label">Squared</label>
+                            <input id="check-squared" type="checkbox" class="osrui-checkbox squared" checked>
+                            <label for="check-squared" class="osrui-label">Squared Checked</label>
+                        </section>
+                    </div>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown checkbox">
+
+                            <input id="uncheck-rounded" type="checkbox" class="osrui-checkbox rounded">
+                            <label for="uncheck-rounded" class="osrui-label">Rounded</label>
+
+                            <input id="check-rounded" type="checkbox" class="osrui-checkbox rounded" checked>
+                            <label for="check-rounded" class="osrui-label">Rounded Checked</label>
+
+                            <input id="hover-rounded" type="checkbox" class="osrui-checkbox rounded hover" checked>
+                            <label for="hover-rounded" class="osrui-label">Rounded Checked</label>
+                        </section>
+                        <section class="osrui-container framed-brown checkbox">
+
+                            <input id="uncheck-rounded-red" type="checkbox" class="osrui-checkbox rounded red">
+                            <label for="uncheck-rounded-red" class="osrui-label">Red</label>
+
+                            <input id="check-rounded-red" type="checkbox" class="osrui-checkbox rounded red" checked>
+                            <label for="check-rounded-red" class="osrui-label">Red Checked</label>
+
+                            <input id="hover-rounded-red" type="checkbox" class="osrui-checkbox rounded red hover">
+                            <label for="hover-rounded-red" class="osrui-label">Red Hover</label>
+
+                        </section>
+                        <section class="osrui-container framed-brown checkbox">
+
+                            <input id="uncheck-rounded-blue" type="checkbox" class="osrui-checkbox rounded blue">
+                            <label for="uncheck-rounded-blue" class="osrui-label">Blue</label>
+
+                            <input id="check-rounded-blue" type="checkbox" class="osrui-checkbox rounded blue" checked>
+                            <label for="check-rounded-blue" class="osrui-label">Blue Checked</label>
+
+                            <input id="hover-rounded-blue" type="checkbox" class="osrui-checkbox rounded blue hover">
+                            <label for="hover-rounded-blue" class="osrui-label">Blue Hover</label>
+
+                        </section>
+                        <section class="osrui-container framed-brown checkbox">
+
+                            <input id="uncheck-rounded-green" type="checkbox" class="osrui-checkbox rounded green">
+                            <label for="uncheck-rounded-green" class="osrui-label">Green</label>
+
+                            <input id="check-rounded-green" type="checkbox" class="osrui-checkbox rounded green" checked>
+                            <label for="check-rounded-green" class="osrui-label">Green Checked</label>
+
+                            <input id="hover-rounded-green" type="checkbox" class="osrui-checkbox rounded green hover">
+                            <label for="hover-rounded-green" class="osrui-label">Green Hover</label>
+
+                        </section>
+                    </div>
+
+                </article>
+                <!-- Radio Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>osrui-radio & osrui-label</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown checkbox">
+                            <input name="radio" id="radio" type="radio" value="1" class="osrui-radio">
+                            <label for="radio" class="osrui-label">Normal</label>
+                            <input name="radio" id="radio-2" type="radio" value="2" class="osrui-radio" checked>
+                            <label for="radio-2" class="osrui-label">Normal Checked</label>
+                        </section>
+                        <section class="osrui-container framed-brown checkbox">
+                            <input name="radio-golden" id="radio-golden" type="radio" value="1" class="osrui-radio golden">
+                            <label for="radio-golden" class="osrui-label">Golden</label>
+                            <input name="radio-golden" id="radio-golden-2" type="radio" value="2" class="osrui-radio golden" checked>
+                            <label for="radio-golden-2" class="osrui-label">Golden Checked</label>
+                        </section>
+                    </div>
+                </article>
+                <!-- Dropdown Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>osrui-dropdown & osrui-dropdown-name</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown">
+                            <p>Basic Dropdown</p>
+                            <select class="osrui-dropdown" id="dropdown">
+                                <option value="Warrior">Warrior</option>
+                                <option value="Mage">Mage</option>
+                                <option value="Rogue">Rogue</option>
+                                <option value="Ranger">Ranger</option>
+                            </select>
+                        </section>
+                        <section class="osrui-container framed-brown">
+                            <p>Advanced Dropdown With Javascript</p>
+                            <select class="osrui-dropdown-js" id="dropdown">
+                                <option value="Warrior">Warrior</option>
+                                <option value="Mage">Mage</option>
+                                <option value="Rogue">Rogue</option>
+                                <option value="Ranger">Ranger</option>
+                            </select>
+                        </section>
+                    </div>
+                </article>
+                <!-- List Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>osrui-list</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-brown">
+                            <p>Basic List</p>
+                            <select class="osrui-list" size="4">
+                                <option value="Warrior">Warrior</option>
+                                <option value="Mage">Mage</option>
+                                <option value="Rogue">Rogue</option>
+                                <option value="Ranger">Ranger</option>
+                                <option value="Undead">Undead</option>
+                            </select>
+                        </section>
+                        <section class="osrui-container framed-brown">
+                            <p>Advanced List With Javascript</p>
+                            <select class="osrui-list-js" size="4">
+                                <option value="Warrior">Warrior</option>
+                                <option value="Mage">Mage</option>
+                                <option value="Rogue">Rogue</option>
+                                <option value="Ranger">Ranger</option>
+                                <option value="Troll">Troll</option>
+                                <option value="Undead">Undead</option>
+                            </select>
+                        </section>
+                    </div>
+                </article>
+                <!-- Progress Bar Article -->
+                <article class="osrui-container framed-grey">
+                    <h2>Progress Bar</h2>
+                    <div class="container-div">
+                        <section class="osrui-container framed-brown progress">
+                            <div class="osrui-progress">
+                                <div class="osrui-progress-track"></div>
+                            </div>
+                            <div class="osrui-progress">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill green">green</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill blue">blue</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill red">red</div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="osrui-container framed-brown progress">
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill green">green</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill lightgreen">lightgreen</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill blue">blue</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill lightblue">lightblue</div>
+                                </div>
+                            </div>
+                            <div class="osrui-progress-scroll">
+                                <div class="osrui-progress-track">
+                                    <div class="osrui-progress-fill red">red</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="osrui-container framed-grey">
+                    <h2>Slider</h2>
+                    <div class="container-div osrui-center">
+                        <section class="osrui-container framed-grey">
+                            <input type="range" name="connard" id="connard" class="osrui-slider">
+                        </section>
+                    </div>
+                </article>
+                article.osrui-container.framed-grey>h2+div.container-div.osrui-center>section.osrui-container.framed-brown
+            </main>
+            <footer class="osrui-container framed osrui-center">
+                <p>
+                    Yes this framework is based on
+                    <a href="http://ronenness.github.io/RPGUI/">RPGUI</a> and i do have changed lots of his code to adapted it to my own.
+                    <br>I also added some classes, remove his javascript files, and create mines.
+                </p>
+            </footer>
+        </div>
+    </body>
+
+</html>

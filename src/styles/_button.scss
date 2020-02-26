@@ -1,0 +1,64 @@
+/**
+* Styling for buttons
+*/
+
+.osrui-button
+{
+	/* internal border */
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    border: none;
+    overflow: hidden;
+    outline: none;
+    max-width: 100%;
+    min-width: 140px;
+    height: 60px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+	font-size: 1.0rem;
+    padding: 0 35px;
+
+    background-image: url("img/button/button.png");
+    background-size:  100% 100%;
+
+    &.hover, &:hover
+    {
+	    background-image: url("img/button/button-hover.png");
+    }
+    &.down, &:active
+    {
+	    background-image: url("img/button/button-down.png");
+    }
+
+    &.golden
+    {
+        background-image: url("img/button/button-golden.png");
+        background-size:  100% 80%;
+        &.hover, &:hover
+        {
+            background-image: url("img/button/button-golden-hover.png");
+        }
+        &.down, &:active
+        {
+            background-image: url("img/button/button-golden-down.png");
+        }
+    }
+    &.rounded
+    {
+        background-image: url("img/button/button-rounded.png");
+        background-size:  100% 80%;
+        &.hover, &:hover
+        {
+            background-image: url("img/button/button-rounded-hover.png");
+        }
+        &.down, &:active
+        {
+            background-image: url("img/button/button-rounded-down.png");
+        }
+    }
+    
+}
+

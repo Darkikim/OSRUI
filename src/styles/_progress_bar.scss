@@ -1,0 +1,137 @@
+
+// progress bar styling
+
+.osrui-progress
+{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 42px;
+    width: 85%;
+    margin: 5px 0;
+    &::before
+    {
+        display: inline-block;
+        height: 42px;
+        width: 40px;
+        content: "";
+        background-image: url('img/progress/progress-bar-left.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    &::after
+    {
+        display: inline-block;
+        height: 42px;
+        width: 40px;
+        content: "";
+        background-image: url('img/progress/progress-bar-right.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    & .osrui-progress-track
+    {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        height: 42px;
+        width: 100%;
+        background-image: url('img/progress/progress-bar-track.png');
+        background-repeat: repeat-x;
+        background-size: 36px 100%;
+    }
+    & .osrui-progress-fill
+    {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 24px;
+        background-image: url('img/progress/progress.png');
+        background-repeat: repeat-x;
+        background-size: 100% 100%;
+        &.blue
+        {
+            background-image: url('img/progress/progress-blue.png');
+        }
+        &.green
+        {
+            background-image: url('img/progress/progress-green.png');
+        }
+        &.red
+        {
+            background-image: url('img/progress/progress-red.png');
+        }
+    }
+}
+
+.osrui-progress-scroll
+{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 42px;
+    width: 85%;
+    margin: 5px 0;
+    &::before
+    {
+        display: inline-block;
+        height: 42px;
+        width: 22px;
+        content: "";
+        background-image: url('img/progress/scroll/progress-bar-left.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    &::after
+    {
+        display: inline-block;
+        height: 42px;
+        width: 22px;
+        content: "";
+        background-image: url('img/progress/scroll/progress-bar-right.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    & .osrui-progress-track
+    {
+        align-self: center !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        height: 30px;
+        width: 100%;
+        background-image: url('img/progress/scroll/progress-bar-track.png');
+        background-repeat: repeat-x;
+        background-size: 36px 100%;
+    }
+    & .osrui-progress-fill
+    {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 26px;
+        background-image: url('img/progress/scroll/progress.png');
+        background-repeat: repeat-x;
+        background-size: 100% 100%;
+        &.blue
+        {
+            background-image: url('img/progress/scroll/progress-blue.png');
+        }
+        &.lightblue
+        {
+            background-image: url('img/progress/scroll/progress-lightblue.png');
+        }
+        &.lightgreen
+        {
+            background-image: url('img/progress/scroll/progress-lightgreen.png');
+        }
+        &.green
+        {
+            background-image: url('img/progress/scroll/progress-green.png');
+        }
+        &.red
+        {
+            background-image: url('img/progress/scroll/progress-red.png');
+        }
+    }
+}

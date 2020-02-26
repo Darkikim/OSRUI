@@ -1,0 +1,92 @@
+
+.osrui-content input[type=checkbox].osrui-checkbox
+{
+    display: none;
+    
+    
+    & + label.osrui-label
+    {
+        display: block;
+        background: url('img/checkbox/checkbox-off.png') no-repeat;
+        background-size: auto 100%;
+        padding-left: 34px;
+        height: 24px;
+        margin-bottom: 12px;
+        font-size: 0.9rem !important;
+    }
+    &:checked + label.osrui-label
+    {
+        background: url('img/checkbox/checkbox-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.squared + label.osrui-label
+    {
+        background: url('img/checkbox/squared/checkbox-off.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.squared:checked + label.osrui-label
+    {
+        background: url('img/checkbox/squared/checkbox-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-off.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded:checked + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded:hover + label.osrui-label, &.rounded.hover + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-hover.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.red + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-red-off.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.red:checked + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-red-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.red:hover + label.osrui-label, &.rounded.red.hover + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-red-hover.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.blue + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-blue-off.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.blue:checked + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-blue-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.blue:hover + label.osrui-label, &.rounded.blue.hover + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-blue-hover.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.green + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-green-off.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.green:checked + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-green-on.png') no-repeat;
+        background-size: auto 100%;
+    }
+    &.rounded.green:hover + label.osrui-label, &.rounded.green.hover + label.osrui-label
+    {
+        background: url('img/checkbox/rounded/checkbox-green-hover.png') no-repeat;
+        background-size: auto 100%;
+    }
+}

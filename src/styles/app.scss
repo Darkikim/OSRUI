@@ -1,0 +1,36 @@
+//  Usage of Daisy CSS method url : http://daisy.tetue.net/
+
+/*      RESET       */
+//Normalize or reset depends
+@import "https://yarnpkg.com/en/package/normalize.css";
+//@import '_reset.scss';
+
+/*      CLEAR       */
+// 
+
+@import '_text_color';
+@import '_imports';
+@import '_misc';
+@import '_button';
+@import '_content';
+@import '_containers_and_frames';
+@import '_cursor';
+@import '_icon';
+@import '_input';
+@import '_paragraphs_and_headers';
+@import '_progress_bar';
+@import '_radio';
+@import '_slider'; 
+
+// new ideas
+@import '_checkbox'; //need to add some color checkboxes
+
+//"done" missing some classes and JS
+@import '_dropdown';
+@import '_list';
+@import '_hr';
+
+//doing
+
+//todo
+@import '_disabled';

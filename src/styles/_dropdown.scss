@@ -1,0 +1,97 @@
+/**
+* Customized dropdown with osrui design.
+*/
+
+.osrui-dropdown
+{	
+	padding: 0 !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	/* default size */
+	min-height: 22px !important;
+
+	/* border */
+	padding: 8px !important;
+	border-width: 8px;
+	border-style: solid;
+	border-image-source: url("img/select/select-border-image.png");
+	border-image-slice:  3;
+	border-image-width: 7px;
+	border-image-repeat: repeat;
+
+	background-color: #854C30;
+	background-clip: padding-box;
+
+	list-style: none;
+	option
+	{
+		height: 16px;
+		color: white;
+
+	}
+	// trouver ou placer ça ▼
+	&:hover
+	{
+		color: yellow !important;
+	}
+	li 
+	{
+		margin-left:0;
+	}
+	li:hover
+	{
+		color: yellow !important;
+	}
+	li.osrui-dropdown-selected
+	{
+		//* tricked some browser to change the background color with an image *//
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWOINVX6DwADWwG0OhUbwAAAAABJRU5ErkJggg==);
+	}
+}
+select.osrui-dropdown
+{
+	background-image: url("img/select/select-arrow.png");
+	background-position: 98% center;
+	background-repeat: no-repeat;
+}
+
+div.osrui-dropdown-div
+{
+	display: block;
+	position: relative;
+
+	div.osrui-dropdown
+	{
+		background-image: url("img/select/select-arrow.png");
+		background-size: 15px 10px;
+		background-position: 97% center;
+		background-repeat: no-repeat;
+		p
+		{
+			margin: 0;
+		}
+	}
+	ul.osrui-dropdown
+	{
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		max-height: 115px;
+		margin-top: 0;
+		&.hidden
+		{
+			display: none;
+		}
+		&.large
+		{
+			overflow-y: scroll;
+		}
+	}
+}
+.osrui-dropdown-js
+{
+	display: none;
+}

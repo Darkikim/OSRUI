@@ -1,0 +1,60 @@
+
+.osrui-container
+{
+	border-style: solid;
+	border-image-source: url("img/border/border-image.png");
+	border-image-repeat: repeat;
+	border-image-slice: 6;
+	border-image-width: 18px;
+	border-width: 15px;
+	padding: 12px;
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+	background-color: #4E4A4E;
+	background-clip: padding-box;
+	
+	&.no-frame
+	{
+		border: none;
+		border-style: solid;
+		border-color: transparent;
+		border-width: 15px;
+		padding: 12px;
+		background-color: transparent;
+	}
+
+	&.framed
+	{
+		border-image-source: url("img/border/border-image-golden.png");
+		border-image-slice: 4;
+		background-color: #854C30;
+	}
+
+	&.framed-scroll
+	{
+		border-image-source: url("img/border/border-image-golden2.png");
+		border-image-slice: 8;
+		background-color: #D27D2C;
+	}
+
+	&.framed-grey
+	{
+		border-image-source: url("img/border/border-image-grey.png");
+		border-image-slice: 3;
+		border-image-width: 7px;
+		border-width: 7px;
+		background-color: #4E4A4E;
+	}
+
+	&.framed-brown
+	{
+		border-image-source: url("img/border/border-image-brown.png");
+		border-image-slice: 3;
+		border-image-width: 7px;
+		border-width: 7px;
+		background-color: #854C30;
+	}
+}

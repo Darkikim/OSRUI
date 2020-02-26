@@ -1,0 +1,40 @@
+
+//different cursor graphics
+.osrui-cursor-default
+{
+    cursor: url("img/cursor/default.png"), default !important;
+}
+
+label
+{
+    cursor: url("img/cursor/default.png"), default;
+}
+
+.osrui-cursor-select
+{
+    cursor: url("img/cursor/select.png") 10 0, text !important;
+}
+
+.osrui-content input,
+.osrui-content textarea
+{
+    cursor: url("img/cursor/select.png") 10 0, text;
+}
+
+.osrui-cursor-point
+{
+    cursor: url("img/cursor/point.png"), pointer !important;
+}
+
+.osrui-content a,
+.osrui-content button,
+.osrui-content input[type=radio].osrui-radio + label,
+.osrui-content input[type=checkbox].osrui-checkbox + label,
+.osrui-content input[type=range].osrui-slider,
+.osrui-button,
+.osrui-slider-container,
+.osrui-list,
+.osrui-dropdown
+{
+    cursor: url("img/cursor/point.png"), pointer;
+}

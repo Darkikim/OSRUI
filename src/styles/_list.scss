@@ -1,0 +1,56 @@
+
+/* dropdown box implemented with list (see osrui-dropdown.js for details) */
+ul.osrui-list 
+{
+	max-height: 110px;
+	&.large
+	{
+		overflow-y: scroll;
+		scrollbar-width: none;
+	}
+}
+.osrui-list
+{
+	/* disable scrollbar */
+    scrollbar-width: none;
+
+	/* default size */
+	min-height: 40px;
+	/* border */
+	border-width: 7px;
+	border-style: solid;
+	border-image-source: url("img/select/select-border-image.png");
+	border-image-slice:  3;
+	border-image-width: 7px;
+	border-image-repeat: repeat;
+
+	/* padding */
+	padding: 7px;
+
+	/* background */
+	background-color: #854C30;
+	background-clip: padding-box;
+	background-origin: padding-box;
+
+	list-style: none;
+	li 
+	{
+		margin-left:0;
+	}
+	option:hover,
+	option:checked,
+	li:hover
+	{
+		color: yellow !important;
+	}
+	option:checked,
+	li.osrui-list-selected
+	{
+		//* tricked some browser to change the background color with an image *//
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWOINVX6DwADWwG0OhUbwAAAAABJRU5ErkJggg==);
+	}
+}
+.osrui-list-js
+{
+	display: none;
+}
